@@ -1,0 +1,16 @@
+#menu{
+    list-style: none;
+    padding-left: 24px;
+    margin: 0;
+}
+.menu-item {
+    display: inline-block;
+    padding: 8px;
+    cursor: pointer;
+    text-transform: capitalize;
+    border-left: 1px solid rgb(255, 105, 180);
+}
+
+.menu-item:first-child{
+    border-left: none;
+}

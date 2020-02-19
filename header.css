@@ -1,0 +1,7 @@
+#main-header {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 18px;
+}

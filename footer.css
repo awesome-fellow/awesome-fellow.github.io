@@ -1,0 +1,64 @@
+#footer{
+    margin: 64px;
+    padding: 32px;
+    display: flex;
+    align-items: top;
+;
+    opacity: 70%;
+}
+
+#newsletter, #about{
+    flex: 2;
+}
+
+#links, #accounts {
+    flex: 1;
+}
+
+#accounts > ul, #links > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#accounts > ul > li, #links > ul >li{
+    padding: 8px;
+    margin: 0;
+}
+
+#newsletter h1, #about h1{
+    padding: 0;
+    margin: 0;
+}
+#newsletter h1, #about h1{
+    color: #ff69b4;
+    opacity: 80%;
+}
+#newsletter input[type=email]{
+    width: 70%;
+    margin: 8px 0;
+    padding: 8px;
+    border:1px solid #ff69b4;
+}
+
+#newsletter input[type=submit]{
+    margin: 0;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff6969;
+}
+
+#aside{
+    width: 50%;
+    margin: 0 auto;
+    color: #888A85;
+}
+#aside ul{
+    list-style: none;
+}
+
+#aside ul > li{
+    display: inline-block;
+    padding: 8px 16px;
+}

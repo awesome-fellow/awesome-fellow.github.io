@@ -1,0 +1,19 @@
+#search {
+    width: 45%;
+    margin: 16px auto;
+}
+#search > input{
+    width: 90%;
+    border: 1px solid #ff69b4;
+    padding: 8px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#search > button {
+    display: inline-block;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 24px;
+}

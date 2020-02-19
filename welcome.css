@@ -1,0 +1,55 @@
+#welcome-section{
+    width: 80%;
+    margin: 0 auto;
+    background: rgb(255,105,180);
+    background: linear-gradient(90deg, rgba(255,105,180,0.7161065109637605) 0%, rgba(255,105,180,0.9261905445772058) 35%, rgba(255,105,180,0.8869748583026961) 70%); 
+    position: relative;
+}
+
+#welcome-section img{
+    height: auto;
+    width: 100%;
+}
+
+.position-container{
+    position: absolute;
+    line-height: 1.5;
+    top: 45%;
+    left: 4%;
+    font-size: 32px;
+    padding: 12px;
+}
+
+.position-item {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.position-container button{
+    cursor: pointer;
+    display: block;
+    margin: 16px auto;
+    background-color: #b4ff69;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+}
+
+#signup-section{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    margin: 64px auto;
+    position: relative;
+}
+
+#signup-section img{
+    height: auto;
+    width: 100%;
+}
+
+#signup-section .position-container button{
+    background-color: #ff69b4;
+
+}
